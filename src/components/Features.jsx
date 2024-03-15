@@ -5,7 +5,7 @@ const Features = () => {
 
   const handleButtonClick = (imageUrl) => {
     setBackgroundImage(
-      `url("https://mui.com/static/images/templates/templates-images/${imageUrl}-light")`,
+      `url('https://mui.com/static/images/templates/templates-images/${imageUrl}-light.png')`,
     );
   };
   return (
