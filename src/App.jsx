@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
@@ -6,6 +7,7 @@ const App = () => {
       <div className="container">
         <div className="h-[70px] w-full pt-5"></div>
         <Header />
+        <Hero />
       </div>
     </div>
   );

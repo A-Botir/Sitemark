@@ -53,7 +53,7 @@ const Header = () => {
               "https://mui.com/material-ui/getting-started/templates/sign-up/"
             }
           >
-            <button className="rounded-[32px] bg-[#0959aa] px-2 py-1 text-[13px] font-medium text-[#F0F7FF] hover:bg-[#2879ca]">
+            <button className="rounded-xl bg-gradient-to-b from-[#0A66C2]  to-[#064079] px-2 py-1 text-[13px] font-medium text-[#F0F7FF] hover:bg-[#2879ca]">
               Sign up
             </button>
           </TargetLink>
