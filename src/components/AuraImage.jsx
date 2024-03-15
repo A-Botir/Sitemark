@@ -4,7 +4,7 @@ const AuraImage = () => {
   return (
     <section className="mt-40">
       <div className="shadow-img h-[700px] w-full rounded-[10px] outline outline-[#bfccd980]">
-        <div className="mb-24 h-full w-full bg-[url('https://mui.com/static/images/templates/templates-images/hero-light.png')] bg-contain bg-no-repeat"></div>
+        <div className="mb-24 h-full w-full bg-[url('https://mui.com/static/images/templates/templates-images/hero-light.png')] bg-cover bg-no-repeat"></div>
         <div className="py-8">
           <p className="mb-1 text-center text-[16px] font-medium text-[#4C5967]">
             Trusted by the best companies
