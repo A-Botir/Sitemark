@@ -17,6 +17,9 @@ export default {
     fontFamily: {
       inter: "Inter",
     },
+    boxShadow: {
+      img: "0 0 12px 8px rgba(156, 204, 252, 0.2)",
+    },
     backgroundSize: {
       auto: "auto",
       cover: "cover",
