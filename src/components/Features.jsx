@@ -28,7 +28,7 @@ const Features = () => {
             className={`flex items-center gap-5 rounded-[10px] border ${backgroundImage === "url('https://mui.com/static/images/templates/templates-images/dash-light.png')" ? "border-[#42a5f5] bg-[#1976d20a]" : "border-[#d6e2ebcc]"} p-6 transition duration-500 ease-in hover:border-[#55a6f6] hover:bg-[#55a6f64d] hover:shadow-card`}
           >
             <svg
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ const Features = () => {
               <p className="flex w-[28%] items-center gap-1 border-b border-[#81b3e6] border-[none] font-medium text-[#064079] hover:gap-2">
                 <span>Learn more</span>
                 <svg
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1b73m46"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1b73m46"
                   focusable="false"
                   aria-hidden="true"
                   viewBox="0 0 24 24"
@@ -66,7 +66,7 @@ const Features = () => {
             className={`flex items-center gap-5 rounded-[10px] border ${backgroundImage === "url('https://mui.com/static/images/templates/templates-images/mobile-light.png')" ? "border-[#42a5f5] bg-[#1976d20a]" : "border-[#d6e2ebcc]"} p-6 transition duration-500 ease-in hover:border-[#55a6f6] hover:bg-[#55a6f64d] hover:shadow-card`}
           >
             <svg
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const Features = () => {
               <p className="flex w-[28%] items-center gap-1 border-b border-[#81b3e6] border-[none] font-medium text-[#064079] hover:gap-2">
                 <span>Learn more</span>
                 <svg
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1b73m46"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1b73m46"
                   focusable="false"
                   aria-hidden="true"
                   viewBox="0 0 24 24"
@@ -104,7 +104,7 @@ const Features = () => {
             className={`flex items-center gap-5 rounded-[10px] border ${backgroundImage === "url('https://mui.com/static/images/templates/templates-images/devices-light.png')" ? "border-[#42a5f5] bg-[#1976d20a]" : "border-[#d6e2ebcc]"} p-6 transition duration-500 ease-in hover:border-[#55a6f6] hover:bg-[#55a6f64d] hover:shadow-card`}
           >
             <svg
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
               focusable="false"
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ const Features = () => {
               <p className="flex w-[28%] items-center gap-1 border-b border-[#81b3e6] border-[none] font-medium text-[#064079] hover:gap-2">
                 <span>Learn more</span>
                 <svg
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1b73m46"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1b73m46"
                   focusable="false"
                   aria-hidden="true"
                   viewBox="0 0 24 24"

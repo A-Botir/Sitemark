@@ -1,15 +1,20 @@
 import ModeNightRoundedIcon from "@mui/icons-material/ModeNightRounded";
-import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({
+  scrollToFeatures,
+  scrollToTestimonials,
+  scrollToHighlights,
+  scrollToPricing,
+  scrollToFAQ,
+}) => {
   const TargetLink = ({ url, children }) => (
-    <a to={url} target="_blank" rel="noopener noreferrer">
+    <a href={url} target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   );
 
   return (
-    <header className="shadow-head fixed top-5 rounded-[40px] border border-[#bfccd980] bg-[#ffffff66] px-6 backdrop-blur-xl">
+    <header className="shadow-head fixed top-5 z-10 rounded-[40px] border border-[#bfccd980] bg-[#ffffff66] px-6 backdrop-blur-xl">
       <div className="flex w-full items-center justify-between">
         <div className="flex items-center">
           <img
@@ -18,19 +23,34 @@ const Header = () => {
             className="w-[20%] cursor-pointer"
           />
           <ul className="flex items-center">
-            <li className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]">
+            <li
+              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              onClick={scrollToFeatures}
+            >
               Features
             </li>
-            <li className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]">
+            <li
+              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              onClick={scrollToTestimonials}
+            >
               Testimonials
             </li>
-            <li className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]">
+            <li
+              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              onClick={scrollToHighlights}
+            >
               Highlights
             </li>
-            <li className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]">
+            <li
+              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              onClick={scrollToPricing}
+            >
               Pricing
             </li>
-            <li className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]">
+            <li
+              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              onClick={scrollToFAQ}
+            >
               FAQ
             </li>
           </ul>
