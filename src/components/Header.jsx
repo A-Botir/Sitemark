@@ -1,14 +1,15 @@
 import ModeNightRoundedIcon from "@mui/icons-material/ModeNightRounded";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const TargetLink = ({ url, children }) => (
-    <a href={url} target="_blank" rel="noopener noreferrer">
+    <a to={url} target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   );
 
   return (
-    <header className="fixed top-5 rounded-[40px] border border-[#bfccd980] bg-[#ffffff66] px-6">
+    <header className="shadow-head fixed top-5 rounded-[40px] border border-[#bfccd980] bg-[#ffffff66] px-6 backdrop-blur-xl">
       <div className="flex w-full items-center justify-between">
         <div className="flex items-center">
           <img
