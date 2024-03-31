@@ -24,31 +24,31 @@ const Header = ({
           />
           <ul className="flex items-center">
             <li
-              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              className="cursor-pointer rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
               onClick={scrollToFeatures}
             >
               Features
             </li>
             <li
-              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              className="cursor-pointer rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
               onClick={scrollToTestimonials}
             >
               Testimonials
             </li>
             <li
-              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              className="cursor-pointer rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
               onClick={scrollToHighlights}
             >
               Highlights
             </li>
             <li
-              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              className="cursor-pointer rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
               onClick={scrollToPricing}
             >
               Pricing
             </li>
             <li
-              className="rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
+              className="cursor-pointer rounded-[36px] px-3 py-[6px] text-[15px] font-medium hover:bg-[#96a0aa]"
               onClick={scrollToFAQ}
             >
               FAQ

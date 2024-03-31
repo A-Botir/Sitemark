@@ -9,6 +9,7 @@ import HighLight from "./components/HighLight";
 import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import Buttons from "./components/Buttons";
 
 const App = () => {
   const scrollToFeatures = () => {
@@ -68,8 +69,15 @@ const App = () => {
         <hr className="w-full border-[#d6e2ebcc]" />
       </main>
       <div className="container">
-        <Footer />
+        <Footer
+          scrollToFeatures={scrollToFeatures}
+          scrollToTestimonials={scrollToTestimonials}
+          scrollToHighlights={scrollToHighlights}
+          scrollToPricing={scrollToPricing}
+          scrollToFAQ={scrollToFAQ}
+        />
       </div>
+      <Buttons />
     </div>
   );
 };
